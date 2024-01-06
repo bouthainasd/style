@@ -1,0 +1,322 @@
+
+
+/*********************************************start navbar ***************************************/
+nav{
+    background-color: #0a0808;
+    position:fixed;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px; 
+  
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: blue;
+    padding: 20px 10px;
+    display: flex;
+   
+  }
+  /*******************end navbar ***********************/
+  body{
+    background-color: rgb(78, 77, 77);
+   
+  }
+
+/************************************start section home************************/
+.bnj{
+    height: 100vh;
+    justify-content: center;
+    display:flex;
+
+}  
+
+.bnr{
+        
+        width: 50%;
+        float: left;
+        box-sizing: border-box; 
+      
+}
+
+.bnr h1{
+    color: blue;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.bnr h3{
+    color: blue;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.3;
+
+}
+
+.bnr p{
+  font-size: 20px;
+
+}
+.bnr button{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  
+  background: blue;
+  border: .2rem solid blue;
+  border-radius: .8rem;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  color: white;
+  z-index: 1;
+  overflow: hidden;
+  transition: .5s;
+}
+.bnr button a{
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+
+.bnr h1 span{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: .7px blue;
+    background-image: linear-gradient blue;
+    background-repeat: no-repeat;
+   
+    background-position: 0 0;
+    
+    animation-delay: 2s;
+}
+.bnr h5{
+  color: blue;
+  font-size: larger;
+}
+
+/*********************end section home****************/
+
+/********************************start section about ******************/
+.bou{
+  height: 100hv;
+}
+.bou h2{
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+}
+ .bbj{
+  display: flex;
+ }
+ .bbr{
+       width: 50%;
+        float: left;
+        box-sizing: border-box;
+ }
+.bbr {
+  text-align: center;
+} 
+.bbr h5{
+  font-size: x-large;
+}
+ /*************************end section about**************************/
+
+ /************************start section work************/
+
+ .hero{
+  height: 100hv;
+  text-align: center;
+ }
+.hero h2{
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+}
+.hero p{
+  font-size: large;
+}
+
+ /*********************end section work*****************/
+
+
+/**************************contact******************************/
+ .contact{
+  position: relative;
+ min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact h1{
+  color: blue;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.3;
+
+}
+
+
+.contact p{
+  color: black;
+  font-size: 20px;
+}
+.contact .content{
+  max-width: 800px;
+}
+.contact .content h2{
+  font-size: 36px;
+}
+.contact .content p{
+  font-weight:300 ;
+}
+.container1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info{
+  width: 50%;
+  float: left;
+  box-sizing: border-box
+}
+.container1 .info{
+  width: 50%;
+  
+  flex-direction: column;
+}
+.container1 .info .box{
+  position: relative;
+  padding: 20px;
+  display: flex;
+}
+.container1 .info .box .icon{
+  min-width: 60px;
+  height: 60px;
+  color:blue;
+ 
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px; 
+}
+.container1 .info .box .text{
+  
+  margin-left: 20px;
+  font-size: 16px;
+  color:blue;
+  flex-direction: column;
+  font-weight: 300;
+}
+.container1 .info .box .text h3{
+  font-weight: 500;
+  font-size: 30px;
+}
+.contactform{
+  width: 40%;
+  padding: 40px;
+  background:white;
+}
+.contactform h2{
+  font-size: 30px;
+  color: blue;
+  font-weight: 500;
+}
+.contactform .inputbox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid blue;
+  outline: none;
+  resize: none;
+}
+.contactform .inputbox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0,5s;
+  color:blue;
+}
+.contactform .inputbox input:focus~span,
+.contactform .inputbox input:valid~span,
+.contactform .inputbox textarea:focus~span,
+.contactform .inputbox textarea:valid~span{
+  color: #511ee9;
+  font-size: 12px;
+  transform: translatey(-20px);
+}
+.contactform .inputbox input[type="submit"]{
+  width: 100px;
+  background: blue;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+/*****************end section contact************************************/
+
+/****************************start footer*******************************/
+.hmd{
+  background-color: #0a0808;
+  display: flex;
+}
+.hm{
+       width: 50%;
+        float: left;
+        box-sizing: border-box;
+}
+.hm h1{
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+}
+.hm p{
+  text-align: center;
+  color: blue;
+  font-size: 30px;
+}
+.hm li{
+  text-align: center;
+  color: blue;
+  line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
